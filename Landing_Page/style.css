@@ -112,6 +112,8 @@
     display: block;
     margin-top: 5rem;
     margin-right: 70rem;
+    position: relative;
+    
 }
 
 .appointment {
@@ -126,8 +128,8 @@
     font-size: 2rem;
     display: block;
     position:relative;
-    bottom: 7rem;
-    left: 8rem;
+    bottom: 5rem;
+    left: 10rem;
     transition: all 1s;
 }
 
@@ -231,7 +233,7 @@
     
     width: 400px;
     padding: 2rem;
-    height: 713px;
+    height: 710px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -323,7 +325,7 @@ form >h2{
     height: 30rem;
 }
 pre >p{
-    padding-top: 7rem;
+    padding-top: 5rem;
 }
 .h3{
     color:#B2F689;
