@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    line-height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:rgb(218, 101, 218, 0.1);
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    color:#660066;
+    line-height: 80px;
+    display: none;
+    float: right;
+}
+
+#check {
+    display: none;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color:#660066;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.right ul li a:hover {
+    background-color: #B2F689;
+    border-radius: 10px;
+    color: rgb(58, 10, 58);
+}
+
+@media screen and (max-width: 805px) {
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+}
+
+.box {
+    background-image: url('Images/trail.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-img {
+    margin-top: 1rem;
+    border-radius: 100%;
+    width: 80px;
+    margin-left: 1rem;
+    padding-left: 0rem;
+    background: none;
+    cursor: pointer;
+}
+
+.headnav {
+    background: transparent !important;
+}
+
+.pickup-line {
+    color: #660066;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 4rem;
+    display: block;
+    margin-top: 5rem;
+    margin-right: 70rem;
+}
+
+.appointment {
+    border: none;
+    background: #B2F689;
+    color: #660066;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+    display: block;
+    position:relative;
+    bottom: 7rem;
+    left: 8rem;
+    transition: all 1s;
+}
+
+.appointment:hover {
+    color:#fff;
+    background-color: #660066;
+}
+
+.text {
+    margin-bottom: 30rem;
+}
+.service{
+    color: #660066;
+    font-family: serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name{
+    color: #660066;
+    font-family: serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+    margin-right: 27rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+.ladies{
+    width: 400px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+.men{
+    width: 400px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+    
+
+.ladies-img{
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    transition: transform 0.5s ease-in-out;
+    
+}
+.men-img{
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    transition: transform 0.5s ease-in-out;
+   
+}
+.kids-img{
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    transition: transform 0.5s ease-in-out;
+}
+.ladies-img:hover{
+    transform: scale(1.2);
+}
+.kids-img:hover{
+    transform: scale(1.2);
+}
+.men-img:hover{
+    transform: scale(1.2);
+}
+.service-list{
+    color: #660066;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+}
+.services-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.kids{
+    
+    width: 400px;
+    padding: 2rem;
+    height: 713px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+form {
+    color: #660066;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #660066;
+    font-style: italic;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:#660066;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+input[type="submit"] {
+    background: #B2F689;
+    color: #660066;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+input[type="submit"]:hover {
+    color:#B2F689;
+    background-color: #660066;
+}
+form >h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #B2F689;
+}
+.gallary-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+.gallary{
+    height: 400px;
+    width: auto;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.about-p{
+    color: #660066;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 20rem;
+    font-size: 1.5rem;
+    font-family: serif;
+    padding-top: 5rem;
+}
+.company-image{
+    padding-top: 5rem;
+    width: auto;
+    height: 30rem;
+}
+pre >p{
+    padding-top: 7rem;
+}
+.h3{
+    color:#B2F689;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+}
+.footer{
+    background-color: transparent;
+    background-color:rgb(218, 101, 218, 0.1);
+    width: 100%;
+    height: 600px;
+    margin-top: 8rem;
+}
+.media-image{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.media-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 5rem;
+}
+.copy-right{
+    text-align: center;
+    padding: 25px;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.copy-p{
+    color:#660066;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}

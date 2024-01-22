@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAM & GLOW</title>
+    <!-- Linking a logo for our website -->
+    <link rel="icon" href="Images/Main-Logo.png" type="image/png">
+    <!-- Linking External Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Nav-Bar -->
+  <div class="box">
+    <header id="navbar" class="transparent">
+      <nav class="navbar">
+        <div class="left">
+          <a href="#">
+            <img src="Images/Main-Logo.png" class="logo-img">
+          </a>
+        </div>
+        <div class="right">
+          <ul class="list">
+            <li id="name">GLAM & GLOW</li>
+          </ul>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="text">
+      <pre>
+        <p class="pickup-line">
+          BEAUTY IS A 
+          STATE OF MIND
+        </p>
+        <a href="#booking" style="text-decoration: none;">
+          <button class="appointment" id="appointment">MAKE AN APPOINTMENT</button>
+        </a>
+    </pre>
+  </div>
+</div>
+<div>
+  <h1 class="service" id="service">SERVICES</h1>
+  <div class="services-list">
+    <div class="ladies">
+      <img src="Images/ladies.jpg" class="ladies-img">
+      <ul>
+        <h3 class="h3">LADIES</h3>
+        <li class="service-list">Make Up</li>
+        <li class="service-list">Hair Cut</li>
+        <li class="service-list">Hair Styling</li>
+        <li class="service-list">All Beauty Related Services</li>
+      </ul>
+    </div>
+    <div class="kids">
+      <img src="Images/kids.jpg" class="kids-img">
+      <ul>
+        <h3 class="h3">KID'S</h3>
+        <li class="service-list">Make Up</li>
+        <li class="service-list">Hair Cut</li>
+        <li class="service-list">Hair Styling</li>
+      </ul>
+    </div>
+    <div class="men">
+      <img src="Images/Men.jpg" class="men-img">
+      <ul>
+        <h3 class="h3">MEN</h3>
+        <li class="service-list">Make Up</li>
+        <li class="service-list">Hair Cut</li>
+        <li class="service-list">Hair Styling</li>
+        <li class="service-list">All Beauty Related Services</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div>
+  <h1 class="service" id="booking">BOOK SERVICE APPOINTMENT</h1>
+  <form action="#"  class="booking-form">
+    <h2>Book an Appointment</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="message">Message (optional):</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <input type="submit" value="Book Appointment" onclick="submit()">
+</form>
+</div>
+<div>
+  <h1 class="service" id="portfolio">OUR PORTFOLIO</h1>
+  <div class="gallary-box">
+    <img src="Images/portfolio-2.jpg" class="gallary">
+    <img src="Images/portfolio-3.jpg" class="gallary">
+    <img src="Images/portfolio-1.png" class="gallary">
+    <img src="Images/portfolio-4.jpg" class="gallary">
+    <img src="Images/real parlor image -2.jpeg" class="gallary">
+    <img src="Images/real parlor image-1.jpeg" class="gallary">
+  
+  </div>
+</div>
+<div>
+  <h1 class="service" id="about">ABOUT US</h1>
+  <div class="container about">
+      <div>
+        <img src="Images/Main-Logo.png" class="company-image">
+      </div>
+      <div>
+        <p class="about-p">Glam and Glow Family Salon is your destination for personalized beauty experiences. Our skilled team offers cutting-edge services for the entire family. From trendy haircuts to soothing spa treatments, we prioritize quality and individuality. At Glam and Glow, we believe in the power of beauty to boost confidence. Join us for a warm and inviting atmosphere where your unique style is celebrated. Embrace the confidence that comes with every visit to Glam and Glow Family Salon.</p>
+      </div>
+  </div>
+</div>
+
+<div class="footer" id="contact">
+  <h1 class="service">CONTACT US</h1>
+  <div class="media-box">
+      <a href="https://www.instagram.com">
+        <img src="https://cdn-icons-png.flaticon.com/512/4138/4138124.png" class="media-image">
+      </a>
+      <a href="https://twitter.com">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/027/395/710/small_2x/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" class="media-image">
+      </a>
+      <a href="https://www.youtube.com">
+        <img src="https://static-00.iconduck.com/assets.00/youtube-icon-512x511-qrlabbtf.png" class="media-image">
+      </a>
+  </div>
+  <div class="contact">
+    <p class="copy-p">📞  +91 73********</p>
+    <p class="copy-p">📧 galmandglow@gmail.com</p>
+  </div>
+  <div class="copy-right">
+    <p class="copy-p">&copy; 2024 G&G. All rights reserved.</p>
+  </div>
+</div>
+
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
